@@ -1,0 +1,53 @@
+Read 10 items
+Read 80 items
+Read 10 items
+Read 80 items
+[1] TRUE
+Read 10 items
+Read 80 items
+Read 10 items
+Read 10 items
+Read 80 items
+[1] "Note: tipranges_to_tip_condlikes_of_data_on_each_state() is converting a states_list with (0-based) numbers to the equivalent areanames"
+Read 80 items
+Read 10 items
+Read 80 items
+[1] "Note: tipranges_to_tip_condlikes_of_data_on_each_state() is converting a states_list with (0-based) numbers to the equivalent areanames"
+
+Your computer has 4 cores.
+[1] "parscale:"
+[1] 1 1
+
+
+NOTE: Before running optimx(), here is a test calculation of the data likelihood
+using calc_loglike_for_optim() on initial parameter values, with printlevel=2...
+if this crashes, the error messages are more helpful
+than those from inside optimx().
+
+[1] "Note: tipranges_to_tip_condlikes_of_data_on_each_state() is converting a states_list with (0-based) numbers to the equivalent areanames"
+Read 10 items
+Read 80 items
+Read 10 items
+Read 80 items
+
+Your computer has 4 cores.
+[1] "parscale:"
+[1] 1.666678 1.666678 1.000000
+
+
+NOTE: Before running optimx(), here is a test calculation of the data likelihood
+using calc_loglike_for_optim() on initial parameter values, with printlevel=2...
+if this crashes, the error messages are more helpful
+than those from inside optimx().
+
+
+Your computer has 4 cores.
+[1] "parscale:"
+[1] 1 1
+
+
+NOTE: Before running optimx(), here is a test calculation of the data likelihood
+using calc_loglike_for_optim() on initial parameter values, with printlevel=2...
+if this crashes, the error messages are more helpful
+than those from inside optimx().
+

@@ -1,0 +1,93 @@
+#NEXUS
+[R-package APE, Sat Nov 21 15:17:04 2026]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 40;
+	TAXLABELS
+		P_angustatus_F
+		P_arcturus_A
+		P_arcturus_C
+		P_bianor_A
+		P_bianor_B
+		P_bianor_C
+		P_blumei_G
+		P_chikae_F
+		P_crino_C
+		P_dehaanii_A
+		P_dehaanii_B
+		P_dialis_A
+		P_dialis_B
+		P_hermeli_F
+		P_hermosanus_B
+		P_hopponis_B
+		P_karna_D
+		P_karna_E
+		P_krishna_A
+		P_krishna_C
+		P_lorquinianus_G
+		P_lorquinianus_H
+		P_maackii_A
+		P_montrouzieri_H
+		P_neumoegeni_G
+		P_okinawensis_B
+		P_orsippus_H
+		P_palinurus_C
+		P_palinurus_D
+		P_paris_A
+		P_paris_C
+		P_paris_D
+		P_peranthus_D
+		P_peranthus_G
+		P_pericles_G
+		P_polyctor_C
+		P_syfanius_A
+		P_telegonus_G
+		P_ulysses_G
+		P_ulysses_H
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	P_angustatus_F,
+		2	P_arcturus_A,
+		3	P_arcturus_C,
+		4	P_bianor_A,
+		5	P_bianor_B,
+		6	P_bianor_C,
+		7	P_blumei_G,
+		8	P_chikae_F,
+		9	P_crino_C,
+		10	P_dehaanii_A,
+		11	P_dehaanii_B,
+		12	P_dialis_A,
+		13	P_dialis_B,
+		14	P_hermeli_F,
+		15	P_hermosanus_B,
+		16	P_hopponis_B,
+		17	P_karna_D,
+		18	P_karna_E,
+		19	P_krishna_A,
+		20	P_krishna_C,
+		21	P_lorquinianus_G,
+		22	P_lorquinianus_H,
+		23	P_maackii_A,
+		24	P_montrouzieri_H,
+		25	P_neumoegeni_G,
+		26	P_okinawensis_B,
+		27	P_orsippus_H,
+		28	P_palinurus_C,
+		29	P_palinurus_D,
+		30	P_paris_A,
+		31	P_paris_C,
+		32	P_paris_D,
+		33	P_peranthus_D,
+		34	P_peranthus_G,
+		35	P_pericles_G,
+		36	P_polyctor_C,
+		37	P_syfanius_A,
+		38	P_telegonus_G,
+		39	P_ulysses_G,
+		40	P_ulysses_H
+	;
+	TREE * UNTITLED = [&R] (((((28:0.14553694,29:0.14553694):7.525498096,7:7.671035036):3.174331473,1:10.84536651):4.401424572,((38:6.722873984,(27:4.904551386,(40:2.384190653,39:2.384190653):2.520360733):1.818322599):3.250915787,24:9.973789772):5.27300131):2.057118068,(((((19:0.4080790697,20:0.4080790697):6.735124448,(23:0.4477489851,37:0.4477489851):6.695454533):1.038038933,(16:4.582046522,(2:0.1532407937,3:0.1532407937):4.428805728):3.599195929):3.444314728,(((8:3.763691184,14:3.763691184):4.702637301,(((36:5.453877182,((4:1.090656839,(5:0.5889320946,6:0.5889320946):0.5017247449):3.000616329,(10:0.3921561791,11:0.3921561791):3.699116989):1.362604014):1.124517481,26:6.578394663):0.8896372753,(12:0.6071778088,13:0.6071778088):6.860854129):0.9982965467):1.651786542,(((17:0.4377141016,18:0.4377141016):3.37383667,((30:1.646884454,31:1.646884454):1.107181976,15:2.75406643):1.057484342):2.175754246,32:5.987305018):4.130810009):1.507442153):3.392712699,(9:13.5446026,(25:11.33002657,(35:9.979758421,((21:1.848037147,22:1.848037147):1.892971326,(34:1.420504526,33:1.420504526):2.320503947):6.238749948):1.350268152):2.21457603):1.473667275):2.285639272);
+END;
