@@ -1,0 +1,193 @@
+Picked up JAVA_TOOL_OPTIONS: -Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts -Djavax.net.ssl.trustStoreType=JKS -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=42281 -Dhttp.nonProxyHosts=localhost|127.0.0.1|::1|127.*|0.*|::|169.254.*|api.anthropic.com|api-staging.anthropic.com|api-pr-preview.anthropic.com|mcp-proxy.anthropic.com|mcp-proxy-staging.anthropic.com|registry.npmjs.org|jsr.io|npm.jsr.io|pypi.org|files.pythonhosted.org|index.crates.io|proxy.golang.org|host.docker.internal|10.*|172.16.*|172.17.*|172.18.*|172.19.*|172.20.*|172.21.*|172.22.*|172.23.*|172.24.*|172.25.*|172.26.*|172.27.*|172.28.*|172.29.*|172.30.*|172.31.*|192.168.*|100.64.0.0/10|*.svc.cluster.local|*.svc.cluster.local -Djdk.http.auth.tunneling.disabledSchemes= -Djdk.http.auth.proxying.disabledSchemes=
+Picked up _JAVA_OPTIONS: -XX:+UnlockDiagnosticVMOptions -XX:DisableIntrinsic=_base64_encodeBlock,_base64_decodeBlock
+
+        BEAST v1.10.4 Prerelease #bc6cbd9, 2002-2018
+       Bayesian Evolutionary Analysis Sampling Trees
+                 Designed and developed by
+   Alexei J. Drummond, Andrew Rambaut and Marc A. Suchard
+                              
+               Department of Computer Science
+                   University of Auckland
+                  alexei@cs.auckland.ac.nz
+                              
+             Institute of Evolutionary Biology
+                  University of Edinburgh
+                     a.rambaut@ed.ac.uk
+                              
+              David Geffen School of Medicine
+           University of California, Los Angeles
+                     msuchard@ucla.edu
+                              
+                Downloads, Help & Resources:
+                  	http://beast.community
+                              
+Source code distributed under the GNU Lesser General Public License:
+          	http://github.com/beast-dev/beast-mcmc
+                              
+                     BEAST developers:
+	Alex Alekseyenko, Guy Baele, Trevor Bedford, Filip Bielejec, Erik Bloomquist, Matthew Hall,
+	Joseph Heled, Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li,
+	Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel,
+          	Oliver Pybus, Chieh-Hsi Wu, Walter Xie
+                              
+                         Thanks to:
+    	Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Using BEAGLE library v4.2.0 (PRE-RELEASE) for accelerated, parallel likelihood evaluation
+2009-, BEAGLE Working Group - https://beagle-dev.github.io/
+Citation: Ayres et al (2019) Systematic Biology 68: 1052-1061 | doi:10.1093/sysbio/syz020
+
+
+Random number seed: 11
+
+
+Loading additional development parsers from development_parsers.properties, which is additional set of parsers only available for development version ...
+Parsing XML file: test.xml
+  File encoding: UTF8
+Looking for plugins in /home/user/RASP/results/3_beast/test/plugins
+
+Read alignment: alignment
+  Sequences = 42
+      Sites = 594
+   Datatype = nucleotide
+Site patterns 'patterns' created from positions 1-594 of alignment 'alignment'
+  unique pattern count = 177
+Tree is assumed to be ultrametric
+  Changing height of leaf node P_angustatus_F from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_crino_C from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_blumei_G from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_palinurus_C from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_palinurus_D from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_montrouzieri_H from 1.9999999999242846E-5 to 0.0
+  Changing height of leaf node P_orsippus_H from 1.9999999999242846E-5 to 0.0
+  Changing height of leaf node P_telegonus_G from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_ulysses_G from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_ulysses_H from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_chikae_F from 1.9999999999242846E-5 to 0.0
+  Changing height of leaf node P_hermeli_F from 1.9999999999242846E-5 to 0.0
+  Changing height of leaf node P_pericles_G from 2.000000000279556E-5 to 0.0
+  Changing height of leaf node P_peranthus_D from 1.9999999999242846E-5 to 0.0
+  Changing height of leaf node P_peranthus_G from 1.9999999999242846E-5 to 0.0
+  Changing height of leaf node P_lorquinianus_G from 2.000000000279556E-5 to 0.0
+  Changing height of leaf node P_lorquinianus_H from 2.000000000279556E-5 to 0.0
+  Changing height of leaf node P_neumoegeni_G from 1.9999999999242846E-5 to 0.0
+  Changing height of leaf node P_paris_D from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_hermosanus_B from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_karna_D from 9.999999996068709E-6 to 0.0
+  Changing height of leaf node P_karna_E from 9.999999996068709E-6 to 0.0
+  Changing height of leaf node P_paris_A from 9.999999996068709E-6 to 0.0
+  Changing height of leaf node P_paris_C from 9.999999996068709E-6 to 0.0
+  Changing height of leaf node P_krishna_A from 1.9999999999242846E-5 to 0.0
+  Changing height of leaf node P_krishna_C from 1.9999999999242846E-5 to 0.0
+  Changing height of leaf node P_maackii_A from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_syfanius_A from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_hopponis_B from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_arcturus_A from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_arcturus_C from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_dialis_A from 1.9999999999242846E-5 to 0.0
+  Changing height of leaf node P_dialis_B from 1.9999999999242846E-5 to 0.0
+  Changing height of leaf node P_okinawensis_B from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_dehaanii_A from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_dehaanii_B from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_bianor_A from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_bianor_C from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_memnon from 9.999999999621423E-6 to 0.0
+  Changing height of leaf node P_machaon from 9.999999999621423E-6 to 0.0
+
+Creating the tree model, 'treeModel'
+  taxon count = 42
+  tree height = 21.25001
+Using birth-death model on tree: Gernhard T (2008) J Theor Biol, Volume 253, Issue 4, Pages 769-778 In press
+
+Using discretized relaxed clock model.
+  over sampling = 1
+  parametric model = logNormalDistributionModel
+   rate categories = 82
+
+Creating state frequencies model 'frequencies': Initial frequencies = {0.25, 0.25, 0.25, 0.25}
+
+Creating site rate model: 
+  4 category discrete gamma with initial shape = 0.5
+
+Using BEAGLE DataLikelihood Delegate
+  Using BEAGLE resource 0: CPU (x86_64)
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_SSE THREADING_CPP PROCESSOR_CPU FRAMEWORK_CPU
+  Ignoring ambiguities in tree likelihood.
+  With 177 unique site patterns.
+  Using rescaling scheme : dynamic (rescaling every 100 evaluations, delay rescaling until first overflow)
+
+Using TreeDataLikelihood
+  Branch rate model used: discretizedBranchRates
+Creating swap operator for parameter branchRates.categories (weight=10.0)
+Optimization Schedule: default
+
+Likelihood computation is using a pool of 2 threads.
+
+Creating the MCMC chain:
+  chain length = 100000
+  operator adaption = true
+  adaptation delayed for 1000 steps
+WARNING: Likelihood component, branchRates, created but not used in the MCMC
+
+Citations for this analysis: 
+
+FRAMEWORK
+BEAST primary citation:
+	Suchard MA, Lemey P, Baele G, Ayres DL, Drummond AJ, Rambaut A (2018) Bayesian phylogenetic and phylodynamic data integration using BEAST 1.10. Virus Evolution. vey016. DOI:10.1093/ve/vey016
+
+TREE DENSITY MODELS
+Gernhard 2008 Birth Death Tree Model:
+	Gernhard T (2008) The conditioned reconstructed process. Journal of Theoretical Biology. 253, 769-778. DOI:10.1016/j.jtbi.2008.04.005
+
+MOLECULAR CLOCK MODELS
+Uncorrelated relaxed clock:
+	Drummond AJ, Ho SYW, Phillips MJ, Rambaut A (2006) Relaxed Phylogenetics and Dating with Confidence. PLoS Biology. 4: e88. DOI:10.1371/journal.pbio.0040088
+
+SUBSTITUTION MODELS
+GTR nucleotide substitution model:
+	Tavar?? S (1985) Some probabilistic and statistical problems in the analysis of DNA sequences. In: Miura R. M., editor. Lectures on Mathematics in the Life Sciences. 17, 57-86
+Discrete gamma-distributed rate heterogeneity model:
+	Yang Z (1994) Maximum likelihood phylogenetic estimation from DNA sequences with variable rates over sites: approximate methods. J. Mol. Evol.. 39, 306-314
+
+
+# BEAST v1.10.4 Prerelease #bc6cbd9
+# Generated Sat Nov 21 14:36:18 UTC 2026 [seed=11]
+# -overwrite -seed 11 -beagle_CPU -beagle_SSE -threads 2 test.xml
+state	Posterior   	Prior       	Likelihood  	rootHeight  	ucld.mean   
+0	-5082.0617  	-161.5430   	-4920.5187  	21.2500     	1E-2        	-
+10000	-3612.1312  	-145.5205   	-3466.6107  	20.2268     	1.24431E-2  	-
+20000	-3516.7640  	-137.0706   	-3379.6934  	20.0900     	6.28765E-3  	1.35 minutes/million states
+30000	-3470.0100  	-139.8368   	-3330.1732  	18.6403     	5.13656E-3  	1.29 minutes/million states
+40000	-3416.0445  	-136.5117   	-3279.5328  	20.4594     	3.61141E-3  	1.28 minutes/million states
+50000	-3406.9334  	-144.7028   	-3262.2306  	20.1433     	3.06093E-3  	1.24 minutes/million states
+60000	-3383.8353  	-144.9167   	-3238.9187  	21.5140     	2.87708E-3  	1.24 minutes/million states
+70000	-3386.7129  	-139.1973   	-3247.5156  	21.2710     	2.99319E-3  	1.21 minutes/million states
+80000	-3362.2728  	-134.8764   	-3227.3964  	19.8498     	3.87527E-3  	1.2 minutes/million states
+90000	-3363.9042  	-133.6240   	-3230.2802  	21.1017     	4.24018E-3  	1.18 minutes/million states
+100000	-3350.7820  	-131.7904   	-3218.9916  	16.9299     	3.83594E-3  	1.18 minutes/million states
+
+Operator analysis
+Operator                                          Tuning   Count      Time     Time/Op  Pr(accept) 
+scale(ac)                                         0.261   64         10       0.16     0.3906      
+scale(ag)                                         0.347   60         16       0.27     0.3333      
+scale(at)                                         0.529   74         14       0.19     0.3108      
+scale(cg)                                         0.194   62         24       0.39     0.371       
+scale(gt)                                         0.469   65         15       0.23     0.2615      
+frequencies                                       0.1     67         25       0.37     0.3433      
+scale(alpha)                                      0.523   59         11       0.19     0.2881      
+scale(ucld.mean)                                  0.67    2066       367      0.18     0.2256      
+scale(ucld.stdev)                                 0.179   2010       371      0.18     0.2413      
+scale(birthDeath.meanGrowthRate)                  0.354   2124       84       0.04     0.2396      
+birthDeath.relativeDeathRate                      379259619180497.71991       73       0.04     0.3727      
+subtreeSlide(treeModel)                           3.248   20151      1039     0.05     0.2343      
+Narrow Exchange(treeModel)                                20075      925      0.05     0.1079      
+Wide Exchange(treeModel)                                  6701       229      0.03     0.0025      
+wilsonBalding(treeModel)                                  6690       446      0.07     0.0061      
+scale(treeModel.rootHeight)                       0.104   1991       89       0.04     0.2511      
+uniform(nodeHeights(treeModel))                           20359      1416     0.07     0.4337      
+up:ucld.mean down:nodeHeights(treeModel)          0.537   1984       397      0.2      0.2324      
+swapOperator(branchRates.categories)                      6815       513      0.08     0.5696      
+uniformInteger(branchRates.categories)                    6592       405      0.06     0.6684      
+
+10.108 seconds
+
