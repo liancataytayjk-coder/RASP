@@ -3,3 +3,4 @@ results/3_beast/run*/*.ops
 results/3_beast/run*/*.out
 results/4_beast/combined_full.trees
 results/1_alignment/COI_aligned_raw.fasta
+results/3_beast/*/*/*.trees
