@@ -56,7 +56,7 @@ stopifnot(!any(sapply(res, function(x) inherits(x,"try-error"))))
 tab <- NULL
 for (m in names(models)) {
   r <- res[[m]]; p <- r$outputs@params_table
-  tab <- rbind(tab, data.frame(model=m, LnL=get_LnL_from_BioGeoBEARS_results(r)$ML_value_of_LnL,
+  tab <- rbind(tab, data.frame(model=m, LnL=r$total_loglikelihood,
         n_params=sum(p$type=="free"), d=p["d","est"], e=p["e","est"], j=p["j","est"]))
 }
 tab$AICc <- with(tab, { n <- Ntip(tr); 2*n_params - 2*LnL + (2*n_params*(n_params+1))/(n-n_params-1) })
@@ -69,9 +69,9 @@ saveRDS(res, file.path(od,"biogeobears_results.rds"))
 rb <- res[[best]]
 # --- pie chart tree
 areas <- getareas_from_tipranges_object(tipranges)
-states <- rcpp_areas_list_to_states_list(areas=areas, maxareas=max_range_size, include_null_range=TRUE)
-states_list <- states  # list of 0-based area indices
+states_list <- cladoRcpp::rcpp_areas_list_to_states_list(areas=areas, maxareas=max_range_size, include_null_range=TRUE)
 statenames <- sapply(states_list, function(s) if (length(s)==0 || all(is.na(s))) "null" else paste(areas[s+1], collapse=""))
+stopifnot(length(statenames)==163)
 pdf(file.path(od,"biogeobears_best.pdf"), width=9, height=11)
 plot_BioGeoBEARS_results(rb, analysis_titletxt=paste0(best," (max range size 4)"), addl_params=list("j"), plotwhat="pie",
    label.offset=0.5, tipcex=0.7, statecex=0.5, splitcex=0.5, titlecex=0.9, plotsplits=FALSE,
