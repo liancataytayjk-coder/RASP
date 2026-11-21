@@ -1,0 +1,24 @@
+
+Operator analysis
+Operator                                          Tuning   Count      Time     Time/Op  Pr(accept) 
+scale(ac)                                         0.233   6633       1300     0.2      0.2382      
+scale(ag)                                         0.374   6616       1217     0.18     0.2432      
+scale(at)                                         0.499   6773       1250     0.18     0.2387      
+scale(cg)                                         0.121   6608       1238     0.19     0.2409      
+scale(gt)                                         0.19    6853       1385     0.2      0.2336      
+frequencies                                       0.058   6716       1303     0.19     0.24        
+scale(alpha)                                      0.506   6860       1250     0.18     0.2386      
+scale(ucld.mean)                                  0.664   201474     35599    0.18     0.2354      
+scale(ucld.stdev)                                 0.29    202046     35702    0.18     0.2387      
+scale(birthDeath.meanGrowthRate)                  0.418   201371     13943    0.07     0.238       
+birthDeath.relativeDeathRate                              201650     14283    0.07     0.8888      
+subtreeSlide(treeModel)                           3.254   2019071    114170   0.06     0.2349      
+Narrow Exchange(treeModel)                                2018077    103512   0.05     0.1326      
+Wide Exchange(treeModel)                                  672066     26917    0.04     0.0043      
+wilsonBalding(treeModel)                                  670797     48447    0.07     0.0084      
+scale(treeModel.rootHeight)                       0.148   202512     13996    0.07     0.2408      
+uniform(nodeHeights(treeModel))                           2016696    156911   0.08     0.4488      
+up:ucld.mean down:nodeHeights(treeModel)          0.69    201698     38253    0.19     0.2344      
+swapOperator(branchRates.categories)                      672973     55584    0.08     0.6665      
+uniformInteger(branchRates.categories)                    672510     50641    0.08     0.7658      
+

@@ -1,0 +1,4 @@
+posterior	17.5903
+prior	8.7858
+gt	22.4871
+frequencies2	177.7306

@@ -8,5 +8,5 @@ python3 scripts/03_make_xml.py results/3_beast/test/test.xml 100000 1000 test
 for r in 1 2; do
   mkdir -p results/3_beast/run$r
   python3 scripts/03_make_xml.py results/3_beast/run$r/Achillides_run$r.xml 10000000 1000 Achillides_run$r
-  (cd results/3_beast/run$r && nohup $P/beast -overwrite -seed $((1000+r)) -beagle_CPU -beagle_SSE -threads 2 Achillides_run$r.xml > run$r.out 2>&1 &)
+  (cd results/3_beast/run$r && nohup $P/beast -overwrite -seed $((2000+r)) -beagle_CPU -beagle_SSE -threads 2 Achillides_run$r.xml > run$r.out 2>&1 &)
 done

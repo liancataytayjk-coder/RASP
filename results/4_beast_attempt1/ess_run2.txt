@@ -1,0 +1,45 @@
+
+     LogAnalyser v1.10.4 Prerelease #bc6cbd9, 2002-2018
+                    MCMC Output analysis
+                             by
+           Andrew Rambaut and Alexei J. Drummond
+
+             Institute of Evolutionary Biology
+                  University of Edinburgh
+                     a.rambaut@ed.ac.uk
+
+               Department of Computer Science
+                   University of Auckland
+                  alexei@cs.auckland.ac.nz
+
+
+Analysing log file: results/3_beast/run2/Achillides_run2.log
+burnIn   <= 1000000,   maxState  = 10000000
+statistic	mean	stdErr	median	hpdLower	hpdUpper	ESS	50hpdLower	50hpdUpper
+posterior	-3339.1321	11.7728	-3340.0142	-3360.6597	-3315.7688	7.3667	-3350.436	-3334.457	*
+prior	-122.6954	9.8913	-125.3823	-137.6245	-103.492	4.1952	-135.1431	-123.5574	*
+likelihood	-3216.4367	7.3562	-3216.1378	-3231.0558	-3202.2951	924.798	-3220.6635	-3210.8467	
+treeModel.rootHeight	20.6578	1.8026	20.562	17.3776	24.3069	8110.1078	19.2074	21.6214	
+tmrca(Achillides)	17.2518	1.4303	17.2664	14.5037	20.0302	6198.4373	16.4777	18.412	
+tmrca(Achillides_memnon)	18.5271	1.4573	18.5012	15.5301	21.2838	8115.7377	17.3643	19.3219	
+birthDeath.meanGrowthRate	0.1216	0.0304	0.1206	0.0617	0.1818	3287.7402	0.0995	0.1393	
+birthDeath.relativeDeathRate	0.2693	0.1881	0.2389	8.1258E-6	0.618	2203.2418	8.1258E-6	0.2389	
+ac	0.0704	0.0247	0.0673	0.024	0.117	455.3628	0.0465	0.0771	
+ag	0.242	0.0574	0.2343	0.1434	0.3584	200.7935	0.194	0.2651	
+at	0.0926	0.0186	0.0915	0.0588	0.1303	103.3154	0.0763	0.0996	
+cg	0.0321	0.0231	0.0264	5.396E-4	0.0777	30.9827	3.8295E-3	0.0276	*
+gt	5.2605E-3	6.6103E-3	2.5931E-3	3.3386E-16	0.0192	8.1171	3.3386E-16	2.5931E-3	*
+frequencies1	0.2975	0.0182	0.298	0.265	0.3328	161.8221	0.2853	0.3099	
+frequencies2	0.1332	0.0133	0.1334	0.1091	0.1595	83.3793	0.1269	0.1445	*
+frequencies3	0.1535	0.0141	0.1517	0.1288	0.1807	180.0843	0.1442	0.163	
+frequencies4	0.4158	0.0186	0.4165	0.3781	0.4487	153.0657	0.4075	0.4301	
+alpha	0.1733	0.018	0.1714	0.141	0.2088	516.7764	0.1552	0.1788	
+ucld.mean	4.2593E-3	7.114E-4	4.1688E-3	2.9983E-3	5.6612E-3	694.2966	3.614E-3	4.4527E-3	
+ucld.stdev	1.5782E-3	8.8907E-4	1.4622E-3	3.174E-7	3.1842E-3	492.9601	7.7722E-4	1.8064E-3	
+meanRate	4.188E-3	5.9714E-4	4.1294E-3	3.0676E-3	5.3555E-3	775.8479	3.6531E-3	4.4014E-3	
+coefficientOfVariation	0.3424	0.1503	0.3442	4.4934E-4	0.5893	528.5405	0.2523	0.4473	
+speciation	-122.0042	4.3631	-122.1908	-130.3859	-113.3486	1162.824	-125.6703	-119.8744	
+treeLikelihood	-3216.4367	7.3562	-3216.1378	-3231.0558	-3202.2951	924.798	-3220.6635	-3210.8467	
+
+ * WARNING: The results of this MCMC analysis may be invalid as 
+            one or more statistics had very low effective sample sizes (ESS)

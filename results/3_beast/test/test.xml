@@ -221,13 +221,13 @@
     <discretizedBranchRates idref="branchRates"/>
   </treeDataLikelihood>
   <operators id="operators" optimizationSchedule="default">
-    <scaleOperator scaleFactor="0.75" weight="0.1"><parameter idref="ac"/></scaleOperator>
-    <scaleOperator scaleFactor="0.75" weight="0.1"><parameter idref="ag"/></scaleOperator>
-    <scaleOperator scaleFactor="0.75" weight="0.1"><parameter idref="at"/></scaleOperator>
-    <scaleOperator scaleFactor="0.75" weight="0.1"><parameter idref="cg"/></scaleOperator>
-    <scaleOperator scaleFactor="0.75" weight="0.1"><parameter idref="gt"/></scaleOperator>
-    <deltaExchange delta="0.01" weight="0.1"><parameter idref="frequencies"/></deltaExchange>
-    <scaleOperator scaleFactor="0.75" weight="0.1"><parameter idref="alpha"/></scaleOperator>
+    <scaleOperator scaleFactor="0.5" weight="4"><parameter idref="ac"/></scaleOperator>
+    <scaleOperator scaleFactor="0.5" weight="4"><parameter idref="ag"/></scaleOperator>
+    <scaleOperator scaleFactor="0.5" weight="4"><parameter idref="at"/></scaleOperator>
+    <scaleOperator scaleFactor="0.5" weight="4"><parameter idref="cg"/></scaleOperator>
+    <scaleOperator scaleFactor="0.5" weight="4"><parameter idref="gt"/></scaleOperator>
+    <deltaExchange delta="0.02" weight="3"><parameter idref="frequencies"/></deltaExchange>
+    <scaleOperator scaleFactor="0.75" weight="3"><parameter idref="alpha"/></scaleOperator>
     <scaleOperator scaleFactor="0.75" weight="3"><parameter idref="ucld.mean"/></scaleOperator>
     <scaleOperator scaleFactor="0.75" weight="3"><parameter idref="ucld.stdev"/></scaleOperator>
     <scaleOperator scaleFactor="0.75" weight="3"><parameter idref="birthDeath.meanGrowthRate"/></scaleOperator>
@@ -257,11 +257,11 @@
         <exponentialPrior mean="0.3333333333333333" offset="0.0"><parameter idref="ucld.stdev"/></exponentialPrior>
         <uniformPrior lower="0.0" upper="10.0"><parameter idref="birthDeath.meanGrowthRate"/></uniformPrior>
         <uniformPrior lower="0.0" upper="1.0"><parameter idref="birthDeath.relativeDeathRate"/></uniformPrior>
-        <gammaPrior shape="0.05" scale="10.0" offset="0.0"><parameter idref="ac"/></gammaPrior>
-        <gammaPrior shape="0.05" scale="20.0" offset="0.0"><parameter idref="ag"/></gammaPrior>
-        <gammaPrior shape="0.05" scale="10.0" offset="0.0"><parameter idref="at"/></gammaPrior>
-        <gammaPrior shape="0.05" scale="10.0" offset="0.0"><parameter idref="cg"/></gammaPrior>
-        <gammaPrior shape="0.05" scale="10.0" offset="0.0"><parameter idref="gt"/></gammaPrior>
+        <exponentialPrior mean="1.0" offset="0.0"><parameter idref="ac"/></exponentialPrior>
+        <exponentialPrior mean="1.0" offset="0.0"><parameter idref="ag"/></exponentialPrior>
+        <exponentialPrior mean="1.0" offset="0.0"><parameter idref="at"/></exponentialPrior>
+        <exponentialPrior mean="1.0" offset="0.0"><parameter idref="cg"/></exponentialPrior>
+        <exponentialPrior mean="1.0" offset="0.0"><parameter idref="gt"/></exponentialPrior>
         <exponentialPrior mean="0.5" offset="0.0"><parameter idref="alpha"/></exponentialPrior>
         <uniformPrior lower="0.0" upper="1.0"><parameter idref="frequencies"/></uniformPrior>
         <speciationLikelihood idref="speciation"/>
