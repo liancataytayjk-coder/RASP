@@ -1,0 +1,2 @@
+Overall best BIC: TIM2+G4 (not implemented in BEAST 1.10.4)
+Chosen (lowest-BIC BEAST-supported): GTR+G4  BIC=6875.7617 lnL=-3150.4713

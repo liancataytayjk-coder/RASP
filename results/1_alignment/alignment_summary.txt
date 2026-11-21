@@ -1,0 +1,2 @@
+Tool: MUSCLE v5.3 (MEGA-CC unavailable: megasoftware.net blocked)
+raw length 1266; frame offset 0 (stops per offset {0: 0, 1: 1794, 2: 509}); trimmed region 67-660; final length 594; max %missing 12.46
